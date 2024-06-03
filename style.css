@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    margin: 5px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e53935;
+}
+
+#flashcard-container {
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flashcard p {
+    margin: 10px 0;
+}
+
+.flashcard button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flashcard button:hover {
+    background-color: #e53935;
+}
+
+#flashcard-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#flashcard-controls button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}

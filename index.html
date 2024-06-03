@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Flashcard Website</h1>
+    </header>
+    <main>
+        <section id="flashcard-form">
+            <h2>Add a Flashcard</h2>
+            <form id="add-flashcard-form">
+                <label for="question">Question:</label>
+                <input type="text" id="question" required>
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer" required>
+                <button type="button" id="reword-flashcard">Reword My Flashcard</button>
+                <button type="submit">Add Flashcard</button>
+            </form>
+        </section>
+        <section id="flashcards">
+            <h2>Your Flashcards</h2>
+            <div id="flashcard-container">
+                <p>No flashcards yet. Add some!</p>
+            </div>
+            <div id="flashcard-controls">
+                <button id="prev-card" disabled>Previous</button>
+                <button id="next-card" disabled>Next</button>
+                <button id="shuffle-cards">Shuffle</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flashcard Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
